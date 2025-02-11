@@ -11,7 +11,7 @@ const { errorResponse } = require('./controllers/responseController');
 
 
 app.use(cors({
-    origin: process.env.FRONT_END_URL,
+    origin: "",
     credentials: true
 }));
 app.use(cookieParser())
